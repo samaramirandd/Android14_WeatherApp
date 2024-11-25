@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="weather_app">Weather App</string>
+    <string name="discover_the_climate_of_your_favorite_places">Discover the climate of your favorite places</string>
+</resources>

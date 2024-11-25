@@ -1,0 +1,29 @@
+<!-- res/layout/widget_weather.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/widget_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_temp_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min: 0°C"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/widget_temp_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max: 0°C"
+        android:textSize="14sp" />
+</LinearLayout>

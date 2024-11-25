@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="widget_location"
+        android:title="Widget Location"
+        android:summary="Set the location to display in the widget"
+        android:dialogTitle="Enter location" />
+
+    <ListPreference
+        android:key="update_frequency"
+        android:title="Update Frequency"
+        android:summary="Select how frequently the widget should be updated"
+        android:entries="@array/update_frequency_entries"
+        android:entryValues="@array/update_frequency_values" />
+
+</PreferenceScreen>
